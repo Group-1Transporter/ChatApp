@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".SplachActivity">
+
+    <ImageView
+        android:id="@+id/ivSplace"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/ic_whatsapp" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ivSplace"
+   android:layout_marginTop="50dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME IN CHAT APP"
+        android:gravity="center"
+
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
+
+</RelativeLayout>
